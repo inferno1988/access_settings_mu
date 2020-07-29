@@ -4,6 +4,12 @@ version: 0.0.1
 author: gyagapen
 homepage: https://github.com/gyagapen/access_settings_mu
 
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  # Flutter versions prior to 1.12 did not support the
+  # flutter.plugin.platforms map.
+  flutter: ">=1.12.0 <2.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
